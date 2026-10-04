@@ -9,7 +9,7 @@ Backend:
 ```
 cd backend
 python -m venv .venv
-.venv\Scripts\activate
+.venv\bin\activate
 pip install -r requirements.txt
 set NVIDIA_API_KEY=nvapi-...        (optional, only for Explain with AI)
 uvicorn main:app --reload --port 8000
