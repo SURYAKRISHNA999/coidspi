@@ -19,6 +19,7 @@ Frontend:
 ```
 cd frontend
 npm install
+npm i -D @vitejs/plugin-react@latest
 npm run dev
 ```
 Open http://localhost:5173. Keys: Space play/pause, Left/Right step.
